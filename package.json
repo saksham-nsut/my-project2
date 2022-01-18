@@ -1,28 +1,23 @@
 {
-  "name": "urlshortener",
+  "name": "url-shortener",
   "version": "1.0.0",
-  "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "convert-radix64": "^0.2.0",
-    "express": "^4.15.2",
-    "firebase": "^3.7.0",
-    "hasha": "^2.2.0"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "devStart": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rishz/URL-Shortener.git"
+  "author": "ReactifyStudio",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.6",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
   },
-  "bugs": {
-    "url": "https://github.com/rishz/URL-Shortener/issues"
-  },
-  "homepage": "https://github.com/rishz/URL-Shortener#readme",
-  "description": ""
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
